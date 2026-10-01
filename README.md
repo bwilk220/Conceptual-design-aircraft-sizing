@@ -1,12 +1,10 @@
 Overview
 
-In the script with the file named “verification of scripts - percent errors.pdf”, the percent errors for several outputs of the two aircraft sizing scripts are in the first part of the pdf. This file also explains the methods used in the aircraft sizing and airfoil optimization scripts in order. Next, the pdf file gives the inputs used in the sizing codes and in the airfoil optimization code using the Concorde as an example. 
+In the pdf of the file named “verification of scripts - percent errors.pdf”, the percent errors for several outputs of the two aircraft sizing scripts are in the first part of the pdf. Output figures of the aircraft sizing and airfoil optimization scripts are also in the pdf using the Concorde as an example. This file also explains the methods used in the aircraft sizing and airfoil optimization scripts in order. Next, the pdf file gives the inputs used in the sizing scripts and in the airfoil optimization scripts using the Concorde as an example. 
 
 In the script with the file named “Aircraft_sizing_S_q_2.m”, verification was performed using the known takeoff gross weight and cruise altitude for the aircrafts listed below. In the file named “Aircraft_sizing_S.m” verification was performed for the aircrafts listed below by allowing the takeoff gross weight to iterate and converge to some value. The errors are bigger when takeoff gross weight is allowed to iterate and converge to a value rather than being the book value for each aircraft because of the snowball effect: errors add with increased number of iterations of the takeoff gross weight. 
 
-In the script with the file named “airfoil_optimization” and “airfoil_optimization_B”, the airfoil figures in the pdf were obtained using the Concorde as an example. 
-
-Both of these aircraft sizing scripts have all inputs of the aircrafts listed below already built into the code, so the code is lengthy but saves effort. 
+Both of these aircraft sizing scripts (“Aircraft_sizing_S_q_2.m” and “Aircraft_sizing_S.m”) have all inputs of the aircrafts listed below already built into the script, so the script is lengthy but saves effort. 
 
 The aircrafts below were used for the verification of the methods of the two aircraft sizing scripts. 
 
@@ -28,7 +26,7 @@ Outputs
 
 The output figures for the file named “Aircraft_sizing_S_q_2.m” can be ignored. Only the outputs in the command window are useful in this file at the book takeoff gross weight and book design altitude. In the file named “Aircraft_sizing_S.m”, the first plot is a takeoff gross weight convergence check, the second plot is a carpet plot, and the third plot is a TOGW vs design altitude plot. 
 
-The output figures for the file named “airfoil optimization” contains a plot of the best lift to drag airfoil and a sectional lift distribution plot of this best airfoil. The output figures for the file named “airfoil optimization B” contains figures of the drag polar, lift curve slope, quarter chord moment coefficient curve, and an angle of attack vs lift to drag ratio curve. 
+The output figures for the file named “airfoil optimization” contains a plot of the best lift to drag ratio airfoil and a sectional lift distribution plot of this best airfoil. The output figures for the file named “airfoil optimization B” contains figures of the drag polar, lift curve slope, quarter chord moment coefficient curve, and an angle of attack vs lift to drag ratio curve. 
 
 
 
