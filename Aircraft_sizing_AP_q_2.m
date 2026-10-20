@@ -52,7 +52,7 @@ close all
 %The initial empty, takeoff, fuel, and payload weights of the verification
 %aircrafts are equal to their actual values.
 
-aircraft_case=1; %0=custom inputs, 1=Concorde, 2=TU-144D,
+aircraft_case=9; %0=custom inputs, 1=Concorde, 2=TU-144D,
 %3=B737-200 4=B777-200ER 5=A320-200 6=CJ-3 7=2000EX 8=XB-70 9=SR-71
 %10=L2000
 
