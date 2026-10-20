@@ -9,14 +9,23 @@ Both of these aircraft sizing scripts (“Aircraft_sizing_AQ_q_2.m” and “Air
 The aircrafts below were used for the verification of the methods of the two aircraft sizing scripts. 
 
 •	aircraft_case = 1   Concorde
+
 •	aircraft_case = 2   Tu-144D
+
 •	aircraft_case = 3   B737-200
+
 •	aircraft_case = 4   B777-200ER
+
 •	aircraft_case = 5   A320-200
+
 •	aircraft_case = 6   CJ-3
+
 •	aircraft_case = 7   2000EX
+
 •	aircraft_case = 8  XB-70 Valkyrie
+
 •	aircraft_case = 9  SR-71 Blackbird
+
 •	aircraft_case = 10  Lockheed L2000
 
 
