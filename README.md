@@ -39,7 +39,7 @@ Outputs
 
 The output figures for the file named “Aircraft_sizing_AS_q_2.m” can be ignored. Only the outputs in the command window are useful in this file at the book takeoff gross weight and book design altitude. In the file named “Aircraft_sizing_AS.m”, the first plot is a TOGW vs design altitude plot, the second plot is a carpet plot, and the third plot is a takeoff gross weight convergence check. 
 
-The output figures for the file named “airfoil optimization_L” contains a plot of the best lift to drag ratio airfoil and a sectional lift distribution plot of this best airfoil. The output figures for the file named “airfoil optimization M” contains figures of the drag polar, lift curve slope, quarter chord moment coefficient curve, and an angle of attack vs lift to drag ratio curve. 
+The output figures for the file named “airfoil optimization_N” contains a plot of the best lift to drag ratio airfoil and a sectional lift distribution plot of this best airfoil. The output figures for the file named “airfoil optimization O” contains figures of the drag polar, lift curve slope, quarter chord moment coefficient curve, and an angle of attack vs lift to drag ratio curve. 
 
 
 
@@ -48,7 +48,7 @@ The output figures for the file named “airfoil optimization_L” contains a pl
 
 How to run aircraft sizing and airfoil optimization scripts
 
-Next, to run either aircraft sizing script (“Aircraft_sizing_AS_q_2.m” or “Aircraft_sizing_AS.m”) on line 57, set aircraft_case=0 if you want to size an aircraft based on custom inputs. Set aircraft_case=1-11 if you want to use an existing aircraft used for verification of the scripts. All the inputs for each verification aircraft are prefilled. For a custom aircraft, fill out all inputs on lines 64-329.
+Next, to run either aircraft sizing script (“Aircraft_sizing_AS_q_2.m” or “Aircraft_sizing_AS.m”) on line 57, set aircraft_case=0 if you want to size an aircraft based on custom inputs. Set aircraft_case=1-12 if you want to use an existing aircraft used for verification of the scripts. All the inputs for each verification aircraft are prefilled. For a custom aircraft, fill out all inputs on lines 64-329.
 
 Next, to run the “airfoil_optimization_N” script, fill out all inputs on lines 20-69. The two aircraft sizing scripts can be used to help fill out these inputs. To run the “airfoil_optimization_O” script, fill out the same inputs and the airfoil max thickness variables on lines 82,85,88,and 91 within the for-loops because the analysis is done only on a single airfoil in this code. The “airfoil_optimization_N” code can be used to obtain these four input variables for “airfoil_optimization_O”.
 
