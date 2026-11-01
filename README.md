@@ -1,6 +1,6 @@
 Overview
 
-In the pdf of the file named “verification of scripts - percent errors.pdf”, the percent errors for several outputs of the two aircraft sizing scripts are in the first part of the pdf. Output figures of the aircraft sizing and airfoil optimization scripts are also in the pdf using the Concorde as an example. This file also explains the methods used in the aircraft sizing and airfoil optimization scripts in order.
+In the pdf of the file named “verification of scripts - percent errors.pdf”, the percent errors for several outputs of the two aircraft sizing scripts are in the first part of the pdf. Output figures of the aircraft sizing and airfoil optimization scripts are also in the pdf using the Concorde as an example. This file also explains the methods used in the aircraft sizing and airfoil optimization scripts in order. Next, the sources are listed where formulas were obtained.
 
 In the script with the file named “Aircraft_sizing_AS_q_2.m”, verification was performed using the known takeoff gross weight and cruise altitude for the aircrafts listed below. In the file named “Aircraft_sizing_AS.m” verification was performed for the aircrafts listed below by allowing the takeoff gross weight to iterate and converge to some value. The errors are bigger when takeoff gross weight is allowed to iterate and converge to a value rather than being the book value for each aircraft because of the snowball effect: errors add with increased number of iterations of the takeoff gross weight. 
 
