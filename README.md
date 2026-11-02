@@ -37,11 +37,77 @@ The aircrafts below were used for the verification of the methods of the two air
 
 Outputs
 
-The output figures for the file named “Aircraft_sizing_AS_q_2.m” can be ignored. Only the outputs in the command window are useful in this file at the book takeoff gross weight and book design altitude. In the file named “Aircraft_sizing_AS.m”, the first plot is a TOGW vs design altitude plot, the second plot is a carpet plot, and the third plot is a takeoff gross weight convergence check. 
+The output figures for the file named “Aircraft_sizing_AS_q_2.m” can be ignored. Only the outputs in the command window are useful in this file at the book takeoff gross weight and book design altitude. In the file named “Aircraft_sizing_AS.m”, the first plot is a TOGW vs design altitude plot, the second plot is a carpet plot, and the third plot is a takeoff gross weight convergence check. The outputs of the command window are given: 
 
-The output figures for the file named “airfoil optimization_N” contains a plot of the best lift to drag ratio airfoil and a sectional lift distribution plot of this best airfoil. The output figures for the file named “airfoil optimization O” contains figures of the drag polar, lift curve slope, quarter chord moment coefficient curve, and an angle of attack vs lift to drag ratio curve. 
+ALL OUTPUT UNITS METRIC:
+
+TOGW = takeoff gross weight, 
+
+W_e = empty weight, 
+
+range = total range with climb, cruise, and descent combined 
+
+S = wing area 
+
+alt = design cruise altitude 
+
+V = aircraft velocity
+
+V_a = indicated airspeed 
+
+c_r = root chord length
+
+c_t = tip chord length 
+
+b = wingspan
+
+sweep = wing leading edge sweep angle
+
+c_l = sectional lift coefficient
+
+C_L = wing 3D lift coefficient, alpha = geometric angle of attack
+
+C_d_0 = zero lift angle of attack to use in the airfoil optimization script that leaves out the wing zero lift drag coefficient since it is calculated in that script 
+
+Max thickness sweep = sweep angle at airfoil max thickness location as a fraction of the chord
+
+Re_wing_root = Reynolds number at the wing semispan at cruise
+
+alpha_3D = actual 3D angle of attack for the wing (not geometric angle of attack)
+
+CPR = compressor pressure ratio of engine
+
+BR = bypass ratio of engine
+
+FPR = Fan pressure ratio of engine
+
+A_inlet = engine inlet area
+
+TIT = turbine inlet temperature
+
+T_0_6 = afterburner total temperature (if afterburner used)
+
+TSFC = Thrust specific fuel consumption
+
+T_0_6_max = afterburner total temperature at max drag condition at the beginning of cruise (if afterburner used)
 
 
+
+The output figures for the file named “airfoil optimization_N” contains a plot of the best lift to drag ratio airfoil and a sectional lift distribution plot of this best airfoil. The output figures for the file named “airfoil optimization O” contains figures of the drag polar, lift curve slope, quarter chord moment coefficient curve, and an angle of attack vs lift to drag ratio curve.
+
+ALL OUTPUTS METRIC TO SOLVE FOR HIGHEST L/D AIRFOIL: 
+
+aoa = best airfoil geometric angle of attack
+
+x_crest_u = x location as a fraction of the chord along the airfoil of maximum thickness of the upper surface of best airfoil
+
+y_crest_u = y location as a fraction of the chord along the airfoil of maximum thickness of the upper surface of best airfoil
+
+x_crest_l = x location as a fraction of the chord along the airfoil of maximum thickness of the lower surface of best airfoil
+
+y_crest_u = y location as a fraction of the chord along the airfoil of maximum thickness of the lower surface of best airfoil
+
+L/D = best airfoil lift to drag ratio (including all drag types of aircraft)
 
 
 
