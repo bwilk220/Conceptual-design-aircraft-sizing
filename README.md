@@ -65,7 +65,9 @@ sweep = wing leading edge sweep angle
 
 c_l = sectional lift coefficient
 
-C_L = wing 3D lift coefficient, alpha = geometric angle of attack
+C_L = wing 3D lift coefficient 
+
+alpha = geometric angle of attack
 
 C_d_0 = zero lift angle of attack to use in the airfoil optimization script that leaves out the wing zero lift drag coefficient since it is calculated in that script 
 
