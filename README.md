@@ -93,7 +93,11 @@ T_0_6_max = afterburner total temperature at max drag condition at the beginning
 
 
 
-The output figures for the file named “airfoil optimization_N” contains a plot of the best lift to drag ratio airfoil and a sectional lift distribution plot of this best airfoil. The output figures for the file named “airfoil optimization O” contains figures of the drag polar, lift curve slope, quarter chord moment coefficient curve, and an angle of attack vs lift to drag ratio curve.
+
+
+
+
+The output figures for the file named “airfoil optimization_N” contains a plot of the best lift to drag ratio airfoil and a sectional lift distribution plot of this best airfoil. The output figures for the file named “airfoil optimization O” contains figures of the drag polar, lift curve slope, quarter chord moment coefficient curve, and an angle of attack vs lift to drag ratio curve. The outputs of the command window are given:
 
 ALL OUTPUTS METRIC TO SOLVE FOR HIGHEST L/D AIRFOIL: 
 
