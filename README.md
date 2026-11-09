@@ -2,9 +2,9 @@ Overview
 
 In the pdf of the file named “verification of scripts - percent errors.pdf”, the percent errors for several outputs of the two aircraft sizing scripts are in the first part of the pdf. Output figures of the aircraft sizing and airfoil optimization scripts are also in the pdf using the Concorde as an example. This file also explains the methods used in the aircraft sizing and airfoil optimization scripts in order. Next, the sources are listed where formulas were obtained.
 
-In the script with the file named “Aircraft_sizing_AS_q_2.m”, verification was performed using the known takeoff gross weight and cruise altitude for the aircrafts listed below. In the file named “Aircraft_sizing_AS.m” verification was performed for the aircrafts listed below by allowing the takeoff gross weight to iterate and converge to some value. The errors are bigger when takeoff gross weight is allowed to iterate and converge to a value rather than being the book value for each aircraft because of the snowball effect: errors add with increased number of iterations of the takeoff gross weight. 
+In the script with the file named “Aircraft_sizing_AT_q_2.m”, verification was performed using the known takeoff gross weight and cruise altitude for the aircrafts listed below. In the file named “Aircraft_sizing_AT.m” verification was performed for the aircrafts listed below by allowing the takeoff gross weight to iterate and converge to some value. The errors are bigger when takeoff gross weight is allowed to iterate and converge to a value rather than being the book value for each aircraft because of the snowball effect: errors add with increased number of iterations of the takeoff gross weight. 
 
-Both of these aircraft sizing scripts (“Aircraft_sizing_AS_q_2.m” and “Aircraft_sizing_AS.m”) have all inputs of the aircrafts listed below already built into the script, so the script is lengthy but saves effort. 
+Both of these aircraft sizing scripts (“Aircraft_sizing_AT_q_2.m” and “Aircraft_sizing_AT.m”) have all inputs of the aircrafts listed below already built into the script, so the script is lengthy but saves effort. 
 
 The aircrafts below were used for the verification of the methods of the two aircraft sizing scripts. 
 
@@ -37,7 +37,7 @@ The aircrafts below were used for the verification of the methods of the two air
 
 Outputs
 
-The output figures for the file named “Aircraft_sizing_AS_q_2.m” can be ignored. Only the outputs in the command window are useful in this file at the book takeoff gross weight and book design altitude. In the file named “Aircraft_sizing_AS.m”, the first plot is a TOGW vs design altitude plot, the second plot is a carpet plot, and the third plot is a takeoff gross weight convergence check. The outputs of the command window are given: 
+The output figures for the file named “Aircraft_sizing_AT_q_2.m” can be ignored. Only the outputs in the command window are useful in this file at the book takeoff gross weight and book design altitude. In the file named “Aircraft_sizing_AT.m”, the first plot is a TOGW vs design altitude plot, the second plot is a carpet plot, and the third plot is a takeoff gross weight convergence check. The outputs of the command window are given: 
 
 ALL OUTPUT UNITS METRIC:
 
@@ -120,7 +120,7 @@ L/D = best airfoil lift to drag ratio (including all drag types of aircraft)
 
 How to run aircraft sizing and airfoil optimization scripts
 
-Next, to run either aircraft sizing script (“Aircraft_sizing_AS_q_2.m” or “Aircraft_sizing_AS.m”) on line 57, set aircraft_case=0 if you want to size an aircraft based on custom inputs. Set aircraft_case=1-12 if you want to use an existing aircraft used for verification of the scripts. All the inputs for each verification aircraft are prefilled. For a custom aircraft, fill out all inputs on lines 64-329.
+Next, to run either aircraft sizing script (“Aircraft_sizing_AT_q_2.m” or “Aircraft_sizing_AT.m”) on line 57, set aircraft_case=0 if you want to size an aircraft based on custom inputs. Set aircraft_case=1-12 if you want to use an existing aircraft used for verification of the scripts. All the inputs for each verification aircraft are prefilled. For a custom aircraft, fill out all inputs on lines 64-329.
 
 Next, to run the “airfoil_optimization_N” script, fill out all inputs on lines 20-70. The two aircraft sizing scripts can be used to help fill out these inputs. To run the “airfoil_optimization_O” script, fill out the same inputs and the airfoil max thickness variables on lines 82,85,88,and 91 within the for-loops because the analysis is done only on a single airfoil in this code. The “airfoil_optimization_N” code can be used to obtain these four input variables for “airfoil_optimization_O”.
 
